@@ -1,7 +1,6 @@
 {
-  "name": "content-editor",
-  "version": "1.0.0",
-  "main": "editor.vue",
+  "name": "nuxt-content-editor",
+  "version": "1.0.1",
   "license": "MIT",
   "dependencies": {
     "@toast-ui/vue-editor": "^2.3.1",
