@@ -41,15 +41,15 @@
   dependencies:
     "@types/estree" "*"
 
-ace-builds@^1.4.11:
+ace-builds@^1.4.12:
   version "1.4.12"
   resolved "https://registry.yarnpkg.com/ace-builds/-/ace-builds-1.4.12.tgz#888efa386e36f4345f40b5233fcc4fe4c588fae7"
   integrity sha512-G+chJctFPiiLGvs3+/Mly3apXTcfgE45dT5yp12BcWZ1kUs+gm0qd3/fv4gsz6fVag4mM0moHVpjHDIgph6Psg==
 
-ajv@^6.12.2:
-  version "6.12.3"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.3.tgz#18c5af38a111ddeb4f2697bd78d68abc1cabd706"
-  integrity sha512-4K0cK3L1hsqk9xIb2z9vs/XU+PGJZ9PNpJRDS9YLzmNdX6jmVPfamLvTJr0aDAusnHyCHO6MjzlkAsgtqp9teA==
+ajv@^6.12.5:
+  version "6.12.6"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.6.tgz#baf5a62e802b07d977034586f8c3baf5adf26df4"
+  integrity sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==
   dependencies:
     fast-deep-equal "^3.1.1"
     fast-json-stable-stringify "^2.0.0"
@@ -133,13 +133,13 @@ json-source-map@^0.6.1:
   resolved "https://registry.yarnpkg.com/json-source-map/-/json-source-map-0.6.1.tgz#e0b1f6f4ce13a9ad57e2ae165a24d06e62c79a0f"
   integrity sha512-1QoztHPsMQqhDq0hlXY5ZqcEdUzxQEIxgFkKl4WUp2pgShObl+9ovi4kRh2TfvAfxAoHOJ9vIMEqk3k4iex7tg==
 
-jsoneditor@^8.6.4:
-  version "8.6.8"
-  resolved "https://registry.yarnpkg.com/jsoneditor/-/jsoneditor-8.6.8.tgz#2d90aa2a4ffcc1f9069728115de58414c2fd80e4"
-  integrity sha512-WgNnGe3/zcRE5MjZlPy4lHnXb7N17N2S+MJjJDeeemJ/2eZ/9LB5m4arDHt19WMngtDuAj6xWf6m721nNzDniQ==
+jsoneditor@^9.1.1:
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/jsoneditor/-/jsoneditor-9.1.1.tgz#3f5654e6f8cdd8f239018f941fe6518b8ec3e68e"
+  integrity sha512-dgKDY80QFnoNYqncfTcWewX3Ii1YV3ZEEquu8yJeKHsfs5sXHI2Hb7LfzYPj1X3IKevebsjy+P0MDA/j776Tig==
   dependencies:
-    ace-builds "^1.4.11"
-    ajv "^6.12.2"
+    ace-builds "^1.4.12"
+    ajv "^6.12.5"
     javascript-natural-sort "^0.7.1"
     jmespath "^0.15.0"
     json-source-map "^0.6.1"
@@ -192,12 +192,12 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-v-jsoneditor@1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/v-jsoneditor/-/v-jsoneditor-1.4.1.tgz#d1a19e84c341037c6439e65c3ecb10472f77f1f9"
-  integrity sha512-XRCDxaCU4Dga9BiDKXeva7h2P9mIcOm953HkFIEIJ/giyMXwP3bQp63HnVB4L7eP6xnbhNK0HZ0dvtyKVJ0Wdg==
+v-jsoneditor@1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/v-jsoneditor/-/v-jsoneditor-1.4.2.tgz#2a877fb3ed137732f8e6269b99b32758bd304ad0"
+  integrity sha512-cLY/41uD7+1fJGpbs7HPwBv20UHlNpi8A6zhI9t5lVGLgQ/7lK5pLsZeLAz+4ybOXXK091HDgdB/wEnCTYMFFw==
   dependencies:
-    jsoneditor "^8.6.4"
+    jsoneditor "^9.1.1"
 
 vanilla-picker@^2.10.1:
   version "2.10.1"
